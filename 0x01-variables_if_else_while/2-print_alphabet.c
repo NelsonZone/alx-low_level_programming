@@ -7,6 +7,8 @@
  */
 int main(void)
 {
+	int i;
+
 	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
 
