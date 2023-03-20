@@ -4,23 +4,24 @@
  * main - prints all possible combinations of two-digit numbers
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	int i, j;
+	int j;
+	int k;
 
-	for (i = 0; j < 100; i++)
+	for (j = 0; j <= 99; j++)
 	{
-		for (j = 0; j < 100; j++)
+		for (k = j ; k <= 99; k++)
 		{
-			if (i < j)
+			if (j != k)
 			{
-				putchar((i / 10) + 48);
-				putchar((i % 10) + 48);
+				putchar(j / 10 + '0');
+				putchar(j % 10 + '0');
 				putchar(' ');
-
-				putchar((j / 10) + 48);
-				putchar((j % 10) + 48);
-				if (i != 98 || j != 99)
+				putchar(k / 10 + '0');
+				putchar(k % 10 + '0');
+				if (j * 100 + k != 9899)
 				{
 					putchar(',');
 					putchar(' ');
