@@ -4,9 +4,9 @@
  * print_sign - Shows 1 if the input is a
  * letter Another cases, shows 0
  *
- * @c: The character in ASCII code
+ * @n: parameter to print
  *
- * Return: 1 for letters. 0 for the rest.
+ * Return: return 1, -1, and 0
  */
 int print_sign(int n)
 {
