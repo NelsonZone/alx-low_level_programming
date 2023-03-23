@@ -8,9 +8,9 @@
  *
  * Return: 1 for letters. 0 for the rest.
  */
-int print_sign(int c)
+int print_sign(int n)
 {
-	if ((c >= 97 && c <= 122) || (c >= 65 && c <= 90))
+	if ((n >= 97 && n <= 122) || (n >= 65 && n <= 90))
 	{
 		return (1);
 	}
