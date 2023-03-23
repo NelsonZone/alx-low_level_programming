@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
  * main - check the code
@@ -7,6 +7,9 @@
  */
 int main(void)
 {
-    print_alphabet();
+    int n;
+
+    n = add(89, 9);
+    printf("%d\n", n);
     return (0);
 }
